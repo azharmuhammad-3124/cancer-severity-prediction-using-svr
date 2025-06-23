@@ -1,0 +1,2 @@
+deployment = https://huggingface.co/spaces/azhar-muhammad/cancer_severity_app
+dataset = https://www.kaggle.com/datasets/zahidmughal2343/global-cancer-patients-2015-2024/data

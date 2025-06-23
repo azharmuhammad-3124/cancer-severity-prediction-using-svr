@@ -1,0 +1,20 @@
+1. Mengapa model Support Vector Regression (SVR) dipilih 
+untuk prediksi tingkat keparahan kanker?
+Jawaban:
+SVR dipilih karena mampu memprediksi nilai kontinu dengan baik dan bekerja optimal
+pada dataset yang bersih dan memiliki dimensi tinggi. 
+SVR juga tahan terhadap overfitting saat data relatif seimbang
+dan jumlah fitur tidak terlalu besar.
+
+2. Mengapa perlu dilakukan hyperparameter tuning pada model meskipun hasil awal sudah sangat baik?
+Jawaban:
+Hyperparameter tuning dilakukan untuk mencari kombinasi parameter terbaik yang memaksimalkan performa model,
+mengurangi error, dan memastikan bahwa model tidak hanya fit terhadap data latih,
+ tetapi juga generalisasi dengan baik ke data uji.
+
+ 3. Mengapa preprocessing seperti scaling dan PCA diperlukan sebelum melatih model SVR?
+Jawaban:
+SVR sensitif terhadap skala fitur karena menggunakan jarak (kernel).
+Scaling memastikan semua fitur berada pada skala yang sama,
+sedangkan PCA membantu mengurangi dimensi dan menangani kolinearitas antar fitur, 
+sehingga model lebih efisien dan akurat.
